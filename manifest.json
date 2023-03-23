@@ -1,13 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "Work Reminder",
+  "name": "Proverbs Reminder",
   "version": "1.0",
-  "description": "A simple extension to remind you to stay on task every 30 minutes.",
+  "description": "A reminder to help you stay focused on your work and share wisdom from Proverbs.",
+  "permissions": ["activeTab", "notifications", "alarms"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "Proverbs Reminder"
+  },
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["alarms", "notifications"],
   "icons": {
-    "48": "icon.png"
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   }
 }
