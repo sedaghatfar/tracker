@@ -1,24 +1,26 @@
 {
   "manifest_version": 3,
-  "name": "Proverbs Reminder",
-  "version": "1.0",
-  "description": "A reminder to help you stay focused on your work and share wisdom from Proverbs.",
-  "permissions": ["activeTab", "notifications", "alarms"],
+  "name": "Work Tracker",
+  "version": "3.0",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icon16.png",
       "48": "icon48.png",
       "128": "icon128.png"
-    },
-    "default_title": "Proverbs Reminder"
-  },
-  "background": {
-    "service_worker": "background.js"
+    }
   },
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
+  },
+  "permissions": ["alarms", "notifications", "identity", "storage"],
+  "oauth2": {
+    "client_id": "YOUR_CLIENT_ID.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/spreadsheets"]
+  },
+  "background": {
+    "service_worker": "background.js"
   }
 }

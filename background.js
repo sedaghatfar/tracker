@@ -10,7 +10,7 @@ function createPopup() {
     url: 'popup.html',
     type: 'popup',
     width: 400,
-    height: 200,
+    height: 600,
     focused: true
   });
 }
