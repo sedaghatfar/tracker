@@ -9,6 +9,10 @@ The data is stored in google sheets, stored using the id in config.js, in our sa
 
 and in the manifest.json one would need to add in your oauth2 client id type: Chrome App, see [Googe Console ](https://console.cloud.google.com/apis/credentials)
 
+Another benefit over this is that the extension is < 1MB and, and runs on an unpacked extension [chrome://extensions/](chrome://extensions/)
+
 An idea for the future would be to auto populate the columns in CDE, but having to manuallhy oull them down is a good way to review the day. 
 Another is that for each task it should be `-` delimited and I can do a `=SPLIT()` to make columns for the task and subtask.
+
+
 
