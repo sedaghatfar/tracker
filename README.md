@@ -1,6 +1,6 @@
 # Tracker
 
-Chrome Extension made with help fromChatGPT. I've used a few different trackers in the past, toggl was great but I forgot to update sometimes and would have liked a reminder.
+Chrome Extension made with help fromChatGPT. I've used a few different trackers in the past, toggl was great but I forgot to update sometimes and would have to update at the end of each day.
 
 Every 30 minutes a prompt will ask "What are you working on?" and display a random verse from proverbs
 
