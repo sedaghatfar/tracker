@@ -14,5 +14,7 @@ Another benefit over this is that the extension is < 1MB and, and runs on an unp
 An idea for the future would be to auto populate the columns in CDE, but having to manuallhy oull them down is a good way to review the day. 
 Another is that for each task it should be `-` delimited and I can do a `=SPLIT()` to make columns for the task and subtask.
 
+![image](https://user-images.githubusercontent.com/3936021/228602259-4b128946-51bc-4139-bcb6-cc094c40eb4c.png)<img width="1151" alt="image" src="https://user-images.githubusercontent.com/3936021/228602495-befdcd5d-7b9b-45a3-9f15-9ea593820119.png">
+
 
 
